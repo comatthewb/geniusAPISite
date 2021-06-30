@@ -4,13 +4,24 @@
   "description": "this is a site I built to test the Genius API ",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "nodemon index.js",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
     "webpack": "^5.41.1"
   }
 }
